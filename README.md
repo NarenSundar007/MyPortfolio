@@ -2,7 +2,7 @@
 
 Welcome to the repository for my **personal portfolio website**! This project showcases my skills, projects, and contact information in a clean and interactive design.
 
-![Preview](./assets/portfolio-preview.png) <!-- Add a screenshot of your portfolio -->
+![Preview](./assets/porfolio-preview.png) <!-- Add a screenshot of your portfolio -->
 
 ---
 
