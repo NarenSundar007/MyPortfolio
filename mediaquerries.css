@@ -13,6 +13,14 @@
   }
   
   @media screen and (max-width: 1200px) {
+    #easter{
+      display: none;
+    }
+
+    #blob{
+      display: none;
+    }
+
     #desktop-nav {
       display: none;
     }

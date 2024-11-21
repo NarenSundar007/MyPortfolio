@@ -52,7 +52,7 @@ a {
 }
 
 a:hover {
-  color: grey;
+  color: rgb(255, 255, 255);
   text-decoration: underline;
   text-underline-offset: 1rem;
   text-decoration-color: rgb(181, 181, 181);
@@ -454,3 +454,33 @@ footer {
 footer p {
   text-align: center;
 }
+
+#blob {
+  background-color: white;
+  height: 15rem;
+  aspect-ratio: 1;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  translate: -50% -50%;
+  border-radius: 50%;
+  background: linear-gradient(to right, rgb(0, 0, 0), rgb(255, 255, 255));
+  animation: rotate 20s infinite;
+  opacity: 0.8;
+  transition: transform 0.1s ease, border-radius 0.1s ease;
+  pointer-events: none; /* Avoid blocking mouse events */
+  filter: blur(10px);
+  z-index: -1;
+}
+
+#easter{
+  position: absolute;
+  color: white;
+  top:0;
+  right: 0;
+}
+
+.section__text:hover p{
+  color: rgb(0, 0, 0);
+}
+
