@@ -6,7 +6,7 @@ function toggleMenu(){
   icon.classList.toggle("open")
 }
 
-const roles = ["a student", "a developer", "a designer", "a creator", "a learner", "a thinker", "a dreamer", "a doer", "a maker", "a problem solver", "a collaborator", "a friend", "a human"];
+const roles = ["Web-Developer", "Software Developer", "Front-end Engineer", "a student", "a developer",  "a creator", "a learner", "a thinker", "a problem solver"];
 let currentRoleIndex = 0;
 let currentCharIndex = 0;
 const roleElement = document.getElementById("role");
