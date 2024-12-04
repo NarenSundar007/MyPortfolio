@@ -48,3 +48,8 @@ window.onpointermove = event => {
     top: `${clientY}px`
   }, { duration: 1000, fill: "forwards" });
 }
+
+const year = new Date().getFullYear();
+
+const yearElement = document.getElementById("year");
+yearElement.innerHTML = year;
